@@ -1,8 +1,8 @@
 # Template file for 'gn'
 pkgname=gn
-version=0.0.20250630
+version=0.0.20260603
 revision=1
-_ref=97b68a0bb62b7528bc3491c7949d6804223c2b82
+_ref=6f8c0328ee29c76e3566a216f2f0cf2992daa6ed
 create_wrksrc=yes
 hostmakedepends="python3 ninja"
 short_desc="Meta-build system that generates build files for Ninja"
@@ -10,7 +10,7 @@ maintainer="Duncaen <duncaen@voidlinux.org>"
 license="BSD-3-Clause"
 homepage="https://gn.googlesource.com/gn"
 distfiles="https://gn.googlesource.com/gn/+archive/${_ref}.tar.gz"
-checksum=@55d64385feeadc4c8b30f6e212715f552cb478d43347101f1bee2d8865781c9d
+checksum=@08ab176aec39784af379b34aa42620522c7f478d0db38ae1286427e67ad892ec
 
 do_configure() {
 	cat <<-EOF >src/gn/last_commit_position.h

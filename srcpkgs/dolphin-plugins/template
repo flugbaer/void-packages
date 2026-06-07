@@ -1,6 +1,6 @@
 # Template file for 'dolphin-plugins'
 pkgname=dolphin-plugins
-version=25.08.3
+version=26.04.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake
@@ -14,4 +14,4 @@ maintainer="Domenico Panella <pandom79@gmail.com>"
 license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/en/system/org.kde.dolphin_plugins"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=28449d15e0aace77563f3b6f13f47ba06854160a075df42387fc03f670a8bac5
+checksum=eff4e09163ef6785fa4f93074f32be7e7e2bb0173f16a06bdfaabc3860f06d02

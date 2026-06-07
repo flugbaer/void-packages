@@ -1,7 +1,7 @@
 # Template file for 'kontactinterface'
 pkgname=kontactinterface
-version=25.12.0
-revision=2
+version=26.04.1
+revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins
@@ -15,7 +15,7 @@ maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://kontact.kde.org/"
 distfiles="${KDE_SITE}/release-service/${version}/src/kontactinterface-${version}.tar.xz"
-checksum=b0f2f5ca171785182c53b0c5f7b13bfd667efbd116b76307353585f6197f0266
+checksum=aecc871809676d6a70f963a80e8b75f31e527f6533e6b5a6b9c409b29d0a1ab5
 
 kontactinterface-devel_package() {
 	depends="${sourcepkg}>=${version}_${revision} kf6-kparts-devel"

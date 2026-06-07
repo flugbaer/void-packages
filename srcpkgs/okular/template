@@ -1,7 +1,7 @@
 # Template file for 'okular'
 pkgname=okular
-version=25.12.0
-revision=2
+version=26.04.1
+revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake
  -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
@@ -24,7 +24,7 @@ maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-only"
 homepage="https://kde.org/applications/en/graphics/org.kde.okular"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=cf05a515bba78ee5e7fb5aa09e67ac42fe796f3f645a4353c6b6e555e61c8490
+checksum=3d87a0d9e9fe62435a913190a0a7edd75bec6a02ce2eda4089046adcffc6bba6
 
 do_check() {
 	cd build

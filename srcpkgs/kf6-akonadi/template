@@ -1,7 +1,7 @@
 # Template file for 'kf6-akonadi'
 pkgname=kf6-akonadi
-version=25.12.0
-revision=2
+version=26.04.1
+revision=1
 build_style=cmake
 build_helper="qemu"
 configure_args="-DKF6_HOST_TOOLING=/usr/lib/cmake
@@ -22,7 +22,7 @@ maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM/Akonadi"
 distfiles="${KDE_SITE}/release-service/${version}/src/akonadi-${version}.tar.xz"
-checksum=89d0ffc9e6f065857e5d6ffb085f352c998ae2f31c9ddf812f5696d3d16660dc
+checksum=135e671bfbf4209f4aa7f019738ccbb7d46745096ac833c042b502f1e5b5453a
 replaces="akonadi5>=0"
 
 do_check() {

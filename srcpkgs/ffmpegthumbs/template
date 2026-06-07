@@ -1,6 +1,6 @@
 # Template file for 'ffmpegthumbs'
 pkgname=ffmpegthumbs
-version=25.08.3
+version=26.04.1
 revision=1
 build_style=cmake
 configure_args="-DQT_MAJOR_VERSION=6 -DKF6_HOST_TOOLING=/usr/lib/cmake
@@ -15,4 +15,4 @@ license="GPL-2.0-or-later"
 homepage="https://kde.org/applications/"
 changelog="https://kde.org/announcements/changelogs/gear/${version}/#ffmpegthumbs"
 distfiles="${KDE_SITE}/release-service/${version}/src/ffmpegthumbs-${version}.tar.xz"
-checksum=84ecd131a50799815f414522fc1270c56e0ee45bbfaf96f9e1d2c9278dc84962
+checksum=df38f6782f02f4a941c25bee7edee22f48865109e27419c599b71d155a57f4fe

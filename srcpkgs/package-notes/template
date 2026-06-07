@@ -1,0 +1,14 @@
+# Template file for 'package-notes'
+pkgname=package-notes
+version=0.19
+revision=1
+build_style=gnu-makefile
+depends="python3-pyelftools"
+checkdepends="python3-pytest python3-pyelftools"
+short_desc="Tools to add packaging metadata to ELF files"
+maintainer="Duncaen <duncaen@voidlinux.org>"
+license="CC0-1.0"
+homepage="https://github.com/systemd/package-notes"
+changelog="https://raw.githubusercontent.com/systemd/package-notes/refs/heads/main/debian/changelog"
+distfiles="https://github.com/systemd/package-notes/archive/refs/tags/v${version}.tar.gz"
+checksum=99f99a42731f4e1deeca053bcf5419ed8a3e4c297d42451c0a51e68c3ef258c1

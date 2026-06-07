@@ -1,6 +1,6 @@
 # Template file for 'audex'
 pkgname=audex
-version=25.12.0
+version=26.04.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake
@@ -21,4 +21,4 @@ maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later"
 homepage="https://apps.kde.org/audex/"
 distfiles="${KDE_SITE}/release-service/${version}/src/${pkgname}-${version}.tar.xz"
-checksum=8a6215b85a315e1d5e48e7d87ad61aa5969d6c2b543a891426de534959ba7cb8
+checksum=c44c85ae986582bff9cb84b5b204baa06e17d33a5d5f5c53d276f5310219a1df

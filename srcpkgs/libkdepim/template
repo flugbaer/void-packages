@@ -1,6 +1,6 @@
 # Template file for 'libkdepim'
 pkgname=libkdepim
-version=25.12.0
+version=26.04.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake
@@ -14,7 +14,7 @@ maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://community.kde.org/KDE_PIM"
 distfiles="${KDE_SITE}/release-service/${version}/src/libkdepim-${version}.tar.xz"
-checksum=1c0a5ccbfbdf4be533bf1e52fe17a634d736687e2a949ab11fe9a1f9bd2a8dbc
+checksum=060a4a83b443bac86254d4bac2e34e08c2727a12a7343c01a28c684993f2e052
 
 if [ "$CROSS_BUILD" ]; then
 	configure_args+=" -DDESKTOPTOJSON_EXECUTABLE=/usr/bin/desktoptojson"
