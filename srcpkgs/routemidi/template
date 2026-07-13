@@ -1,17 +1,17 @@
-# Template file for 'receivemidi'
-pkgname=receivemidi
-version=1.5.0
+# Template file for 'routemidi'
+pkgname=routemidi
+version=0.9.8
 revision=1
 build_wrksrc="Builds/LinuxMakefile"
 hostmakedepends="pkg-config"
 makedepends="alsa-lib-devel"
-short_desc="Command-line tool to monitor and receive MIDI messages"
+short_desc="Command-line tool route MIDI messages"
 maintainer="Duncaen <duncaen@voidlinux.org>"
 license="GPL-3.0-or-later"
-homepage="https://github.com/gbevin/ReceiveMIDI"
-changelog="https://github.com/gbevin/ReceiveMIDI/releases"
-distfiles="https://github.com/gbevin/ReceiveMIDI/archive/refs/tags/${version}.tar.gz"
-checksum=0dcf43bfa2ad1ead4b8a5e42b6fce32da37923a5d6ca762ea9be5217e10aa730
+homepage="https://github.com/gbevin/RouteMIDI"
+changelog="https://github.com/gbevin/RouteMIDI/releases"
+distfiles="https://github.com/gbevin/RouteMIDI/archive/refs/tags/${version}.tar.gz"
+checksum=e9ed486188d17029f2dbfa374efaac570cca866029a9a9ead44da7a2e6e1e662
 
 do_build() {
 	export JUCE_LDFLAGS="$LDFLAGS"
@@ -22,11 +22,11 @@ do_check() {
 	cd "${wrksrc}/Tests/Builds/LinuxMakefile"
 	export JUCE_LDFLAGS="$LDFLAGS"
 	make ${makejobs} CONFIG=Release V=1
-	./build/ReceiveMIDITests
+	./build/RouteMIDITests
 }
 
 do_install() {
-	vbin build/receivemidi
+	vbin build/routemidi
 	vdoc "${wrksrc}/README.md"
 	vdoc "${wrksrc}/JAVASCRIPT.md"
 }
